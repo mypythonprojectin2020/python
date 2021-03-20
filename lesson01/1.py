@@ -67,7 +67,7 @@ def create_pipe(dt):
     y_offset = randint(-100, 100)
     top_pipe.y += y_offset
     bot_pipe.y += y_offset
-    gap_offset = randint(0,   100)
+    gap_offset = randint(0, 100)
     top_pipe.y += gap_offset
     bot_pipe.y -= gap_offset
 
