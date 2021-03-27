@@ -6,7 +6,7 @@ window = Window()
 
 my_list = []
 
-for i in range(30):
+for i in range(20):
     my_list.append([random.randint(0,100) for j in range(40)])
  
 min_v = max_v = my_list[0][0]
