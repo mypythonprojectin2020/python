@@ -4,8 +4,8 @@ from math import sqrt
 
 window = Window()
 
-A = Point(800, 110)
-B = Point(200, 110)
+A = Point(500, 600)
+B = Point(800, 110)
 
 c = abs(A.x - B.x)
 a = c/2

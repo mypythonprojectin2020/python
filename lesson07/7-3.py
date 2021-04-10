@@ -14,7 +14,7 @@ class Turtle(Sprite):
         t.rotation += 15
         t.move_forward(length)
         C = t.position
-        t.rotation += 15
+        t.rotation += 50
         t.move_forward(length)
         D = t.position
         
