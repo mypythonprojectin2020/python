@@ -126,11 +126,13 @@ class ColorCode(Sprite):
         self.x = 75
         self.y = window.height - (self.height/2 + 50)
         
+        
 code_list: List[ColorCode] = []
 for i in range(4):
     c = window.create_sprite(ColorCode)
     c.x += i*(c.width + 50)
     c.color = choice(color_list)
+    c.opacity = 0
     code_list.append(c)
     
 checkbotton = window.create_sprite(CheckButton)
