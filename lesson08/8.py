@@ -4,4 +4,4 @@ class Students:
         self.age = age
 
 s = Students("Daphne", 16)
-print("Hi I am", s.name, " ,","I am", s.age, "years old")
+print("Hi I am", s.name, " , I am", s.age, "years old.")

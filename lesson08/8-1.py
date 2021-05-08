@@ -35,7 +35,8 @@ class Building:
 
 t = window.create_sprite(Turtle)
 for _ in range(10):
-    b = Building(randint(0, 1000), randint(0,200), randint(50,300), randint(50,300))
+
+    b = Building(randint(0, 1000), randint(0, 200), randint(50,300), randint(50,300))
     b.draw(t)
 
 
